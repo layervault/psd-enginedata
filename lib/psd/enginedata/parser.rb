@@ -17,7 +17,7 @@ class PSD
 
         @stack = []
         @property = :root
-        @node = {}
+        @node = Node.new
         @result = Result.new
 
         parse_document
