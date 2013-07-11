@@ -6,7 +6,10 @@ class PSD
         hash_end: /^>>$/,
         property: /^\/(\w+)$/,
         property_with_data: /^\/(\w+) (.*)$/,
-        string:   /\(\u{2db}\u{2c7}(.*)\)$/
+        string:   /\(\u{2db}\u{2c7}(.*)\)$/,
+        number: /(\d+)$/,
+        number_with_decimal: /(\d+)\.(\d+)$/,
+        boolean: /(true|false)$/
       }
 
       def parse!
@@ -14,7 +17,7 @@ class PSD
 
         @stack = []
         @property = :root
-        @node = Node.new
+        @node = {}
         @result = Result.new
 
         parse_document
@@ -55,21 +58,22 @@ class PSD
 
       def hash_start(match)
         puts 'hash_start'
-        @node.property = @property
         @node.data = {}
-        @stack.push @node
-        @node = Node.new(data: {})
+
+        @node = Node.new
+        puts "Stack = #{@stack.inspect}"
       end
 
       def hash_end(match)
         puts 'hash_end'
         parent = @stack.pop
-        parent.set_data @node
+        puts "Stack = #{@stack.inspect}"
+        parent.data[@node.property] = @node
         @node = parent
       end
 
       def property(match)
-        @property = match[1]
+        @node.property = match[1]
         puts "property = #{@property}"
       end
 
@@ -85,6 +89,21 @@ class PSD
       def string(match)
         puts "string = #{match[1]}"
         match[1]
+      end
+
+      def number(match)
+        puts "number = #{match[1]}"
+        match[1].to_i
+      end
+
+      def number_with_decimal(match)
+        puts "number = #{match[1]}.#{match[2]}"
+        "#{match[1]}.#{match[2]}".to_f
+      end
+
+      def boolean(match)
+        puts "boolean = #{match[1]}"
+        match[1] == 'true' ? true : false
       end
     end
   end

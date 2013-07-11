@@ -48,6 +48,14 @@ The EngineData format uses certain characters to denote various data types. All 
 >>
 ```
 
+There are 5 data types available to use:
+
+* Hash
+* Array
+* Number (with or without decimal values)
+* String
+* Boolean
+
 <table>
   <thead>
     <th>Code</th>
@@ -55,11 +63,11 @@ The EngineData format uses certain characters to denote various data types. All 
   </thead>
   <tr>
     <td>&lt;&lt;</td>
-    <td>Stack push (hash)</td>
+    <td>Hash start</td>
   </tr>
   <tr>
     <td>&gt;&gt;</td>
-    <td>Stack pop</td>
+    <td>Hash end</td>
   </tr>
   <tr>
     <td>/Name</td>
