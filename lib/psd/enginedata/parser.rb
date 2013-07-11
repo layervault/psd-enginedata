@@ -15,13 +15,14 @@ class PSD
       def parse!
         return self if parsed?
 
-        @stack = []
+        @property_stack = []
+        @node_stack = []
+
         @property = :root
-        @node = Node.new
+        @node = nil
         @result = Result.new
 
         parse_document
-        build_result
       end
 
       private
@@ -58,22 +59,26 @@ class PSD
 
       def hash_start(match)
         puts 'hash_start'
-        @node.data = {}
-
-        @node = Node.new
+        @node_stack.push @node
+        @property_stack.push @property
+        @node = {}
         puts "Stack = #{@stack.inspect}"
       end
 
       def hash_end(match)
         puts 'hash_end'
-        parent = @stack.pop
+        node = @node_stack.pop
+        property = @property_stack.pop
+        return if node.nil?
+
+        node[property] = @node
+        @node = node
+        
         puts "Stack = #{@stack.inspect}"
-        parent.data[@node.property] = @node
-        @node = parent
       end
 
       def property(match)
-        @node.property = match[1]
+        @property = match[1]
         puts "property = #{@property}"
       end
 
@@ -83,7 +88,7 @@ class PSD
 
         puts "property: #{match[1]}, data: #{data}"
 
-        @node.data[property] = data
+        @node[property] = data
       end
 
       def string(match)
