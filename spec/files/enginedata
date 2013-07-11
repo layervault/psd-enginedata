@@ -1,0 +1,1622 @@
+
+
+<<
+	/EngineDict
+	<<
+		/Editor
+		<<
+			/Text (˛ˇMake a change and save.)
+		>>
+		/ParagraphRun
+		<<
+			/DefaultRunData
+			<<
+				/ParagraphSheet
+				<<
+					/DefaultStyleSheet 0
+					/Properties
+					<<
+					>>
+				>>
+				/Adjustments
+				<<
+					/Axis [ 1.0 0.0 1.0 ]
+					/XY [ 0.0 0.0 ]
+				>>
+			>>
+			/RunArray [
+			<<
+				/ParagraphSheet
+				<<
+					/DefaultStyleSheet 0
+					/Properties
+					<<
+						/Justification 2
+						/FirstLineIndent 0.0
+						/StartIndent 0.0
+						/EndIndent 0.0
+						/SpaceBefore 0.0
+						/SpaceAfter 0.0
+						/AutoHyphenate false
+						/HyphenatedWordSize 6
+						/PreHyphen 2
+						/PostHyphen 2
+						/ConsecutiveHyphens 8
+						/Zone 36.0
+						/WordSpacing [ .8 1.0 1.33 ]
+						/LetterSpacing [ 0.0 0.0 0.0 ]
+						/GlyphSpacing [ 1.0 1.0 1.0 ]
+						/AutoLeading 1.2
+						/LeadingType 0
+						/Hanging false
+						/Burasagari false
+						/KinsokuOrder 0
+						/EveryLineComposer false
+					>>
+				>>
+				/Adjustments
+				<<
+					/Axis [ 1.0 0.0 1.0 ]
+					/XY [ 0.0 0.0 ]
+				>>
+			>>
+			]
+			/RunLengthArray [ 24 ]
+			/IsJoinable 1
+		>>
+		/StyleRun
+		<<
+			/DefaultRunData
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+					>>
+				>>
+			>>
+			/RunArray [
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			<<
+				/StyleSheet
+				<<
+					/StyleSheetData
+					<<
+						/Font 0
+						/FontSize 33.0
+						/FauxBold false
+						/FauxItalic false
+						/AutoLeading true
+						/Leading 27.6
+						/HorizontalScale 1.0
+						/VerticalScale 1.0
+						/Tracking 0
+						/AutoKerning true
+						/Kerning 0
+						/BaselineShift 0.0
+						/FontCaps 0
+						/FontBaseline 0
+						/Underline false
+						/Strikethrough false
+						/Ligatures true
+						/DLigatures false
+						/BaselineDirection 1
+						/Tsume 0.0
+						/StyleRunAlignment 2
+						/Language 0
+						/NoBreak false
+						/FillColor
+						<<
+							/Type 1
+							/Values [ 1.0 .07452 .47058 .38431 ]
+						>>
+						/StrokeColor
+						<<
+							/Type 1
+							/Values [ 1.0 .24468 .28678 .33725 ]
+						>>
+						/FillFlag true
+						/StrokeFlag false
+						/FillFirst false
+						/YUnderline 1
+						/OutlineWidth .99987
+						/CharacterDirection 0
+						/HindiNumbers false
+						/Kashida 1
+						/DiacriticPos 2
+					>>
+				>>
+			>>
+			]
+			/RunLengthArray [ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ]
+			/IsJoinable 2
+		>>
+		/GridInfo
+		<<
+			/GridIsOn false
+			/ShowGrid false
+			/GridSize 18.0
+			/GridLeading 22.0
+			/GridColor
+			<<
+				/Type 1
+				/Values [ 0.0 0.0 0.0 1.0 ]
+			>>
+			/GridLeadingFillColor
+			<<
+				/Type 1
+				/Values [ 0.0 0.0 0.0 1.0 ]
+			>>
+			/AlignLineHeightToGridFlags false
+		>>
+		/AntiAlias 1
+		/UseFractionalGlyphWidths true
+		/Rendered
+		<<
+			/Version 1
+			/Shapes
+			<<
+				/WritingDirection 0
+				/Children [
+				<<
+					/ShapeType 0
+					/Procession 0
+					/Lines
+					<<
+						/WritingDirection 0
+						/Children [ ]
+					>>
+					/Cookie
+					<<
+						/Photoshop
+						<<
+							/ShapeType 0
+							/PointBase [ 0.0 0.0 ]
+							/Base
+							<<
+								/ShapeType 0
+								/TransformPoint0 [ 1.0 0.0 ]
+								/TransformPoint1 [ 0.0 1.0 ]
+								/TransformPoint2 [ 0.0 0.0 ]
+							>>
+						>>
+					>>
+				>>
+				]
+			>>
+		>>
+	>>
+	/ResourceDict
+	<<
+		/KinsokuSet [
+		<<
+			/Name (˛ˇPhotoshopKinsokuHard)
+			/NoStart (˛ˇ00ˇˇ0˚ˇˇˇˇ0¸   ˇ	0ˇ=ˇ]0	00000˝0˛0ù0û00A0C0E0G0I0c0É0Ö0á0é0°0£0•0ß0©0√0„0Â0Á0Ó0ı0ˆ0õ0ú?!\)]},.:;!!	¢ˇ 0)
+			/NoEnd (˛ˇ  ˇ0ˇ;ˇ[00
+000\([{ˇÂˇ£ˇ ß0ˇ)
+			/Keep (˛ˇ  %)
+			/Hanging (˛ˇ00.,)
+		>>
+		<<
+			/Name (˛ˇPhotoshopKinsokuSoft)
+			/NoStart (˛ˇ00ˇˇ0˚ˇˇˇˇ  ˇ	0ˇ=ˇ]0	00000˝0˛0ù0û0)
+			/NoEnd (˛ˇ  ˇ0ˇ;ˇ[00
+000)
+			/Keep (˛ˇ  %)
+			/Hanging (˛ˇ00.,)
+		>>
+		]
+		/MojiKumiSet [
+		<<
+			/InternalName (˛ˇPhotoshop6MojiKumiSet1)
+		>>
+		<<
+			/InternalName (˛ˇPhotoshop6MojiKumiSet2)
+		>>
+		<<
+			/InternalName (˛ˇPhotoshop6MojiKumiSet3)
+		>>
+		<<
+			/InternalName (˛ˇPhotoshop6MojiKumiSet4)
+		>>
+		]
+		/TheNormalStyleSheet 0
+		/TheNormalParagraphSheet 0
+		/ParagraphSheetSet [
+		<<
+			/Name (˛ˇNormal RGB)
+			/DefaultStyleSheet 0
+			/Properties
+			<<
+				/Justification 0
+				/FirstLineIndent 0.0
+				/StartIndent 0.0
+				/EndIndent 0.0
+				/SpaceBefore 0.0
+				/SpaceAfter 0.0
+				/AutoHyphenate true
+				/HyphenatedWordSize 6
+				/PreHyphen 2
+				/PostHyphen 2
+				/ConsecutiveHyphens 8
+				/Zone 36.0
+				/WordSpacing [ .8 1.0 1.33 ]
+				/LetterSpacing [ 0.0 0.0 0.0 ]
+				/GlyphSpacing [ 1.0 1.0 1.0 ]
+				/AutoLeading 1.2
+				/LeadingType 0
+				/Hanging false
+				/Burasagari false
+				/KinsokuOrder 0
+				/EveryLineComposer false
+			>>
+		>>
+		]
+		/StyleSheetSet [
+		<<
+			/Name (˛ˇNormal RGB)
+			/StyleSheetData
+			<<
+				/Font 2
+				/FontSize 12.0
+				/FauxBold false
+				/FauxItalic false
+				/AutoLeading true
+				/Leading 0.0
+				/HorizontalScale 1.0
+				/VerticalScale 1.0
+				/Tracking 0
+				/AutoKerning true
+				/Kerning 0
+				/BaselineShift 0.0
+				/FontCaps 0
+				/FontBaseline 0
+				/Underline false
+				/Strikethrough false
+				/Ligatures true
+				/DLigatures false
+				/BaselineDirection 2
+				/Tsume 0.0
+				/StyleRunAlignment 2
+				/Language 0
+				/NoBreak false
+				/FillColor
+				<<
+					/Type 1
+					/Values [ 1.0 0.0 0.0 0.0 ]
+				>>
+				/StrokeColor
+				<<
+					/Type 1
+					/Values [ 1.0 0.0 0.0 0.0 ]
+				>>
+				/FillFlag true
+				/StrokeFlag false
+				/FillFirst true
+				/YUnderline 1
+				/OutlineWidth 1.0
+				/CharacterDirection 0
+				/HindiNumbers false
+				/Kashida 1
+				/DiacriticPos 2
+			>>
+		>>
+		]
+		/FontSet [
+		<<
+			/Name (˛ˇHelveticaNeue-Light)
+			/Script 0
+			/FontType 1
+			/Synthetic 0
+		>>
+		<<
+			/Name (˛ˇAdobeInvisFont)
+			/Script 0
+			/FontType 0
+			/Synthetic 0
+		>>
+		<<
+			/Name (˛ˇMyriadPro-Regular)
+			/Script 0
+			/FontType 0
+			/Synthetic 0
+		>>
+		]
+		/SuperscriptSize .583
+		/SuperscriptPosition .333
+		/SubscriptSize .583
+		/SubscriptPosition .333
+		/SmallCapSize .7
+	>>
+	/DocumentResources
+	<<
+		/KinsokuSet [
+		<<
+			/Name (˛ˇPhotoshopKinsokuHard)
+			/NoStart (˛ˇ00ˇˇ0˚ˇˇˇˇ0¸   ˇ	0ˇ=ˇ]0	00000˝0˛0ù0û00A0C0E0G0I0c0É0Ö0á0é0°0£0•0ß0©0√0„0Â0Á0Ó0ı0ˆ0õ0ú?!\)]},.:;!!	¢ˇ 0)
+			/NoEnd (˛ˇ  ˇ0ˇ;ˇ[00
+000\([{ˇÂˇ£ˇ ß0ˇ)
+			/Keep (˛ˇ  %)
+			/Hanging (˛ˇ00.,)
+		>>
+		<<
+			/Name (˛ˇPhotoshopKinsokuSoft)
+			/NoStart (˛ˇ00ˇˇ0˚ˇˇˇˇ  ˇ	0ˇ=ˇ]0	00000˝0˛0ù0û0)
+			/NoEnd (˛ˇ  ˇ0ˇ;ˇ[00
+000)
+			/Keep (˛ˇ  %)
+			/Hanging (˛ˇ00.,)
+		>>
+		]
+		/MojiKumiSet [
+		<<
+			/InternalName (˛ˇPhotoshop6MojiKumiSet1)
+		>>
+		<<
+			/InternalName (˛ˇPhotoshop6MojiKumiSet2)
+		>>
+		<<
+			/InternalName (˛ˇPhotoshop6MojiKumiSet3)
+		>>
+		<<
+			/InternalName (˛ˇPhotoshop6MojiKumiSet4)
+		>>
+		]
+		/TheNormalStyleSheet 0
+		/TheNormalParagraphSheet 0
+		/ParagraphSheetSet [
+		<<
+			/Name (˛ˇNormal RGB)
+			/DefaultStyleSheet 0
+			/Properties
+			<<
+				/Justification 0
+				/FirstLineIndent 0.0
+				/StartIndent 0.0
+				/EndIndent 0.0
+				/SpaceBefore 0.0
+				/SpaceAfter 0.0
+				/AutoHyphenate true
+				/HyphenatedWordSize 6
+				/PreHyphen 2
+				/PostHyphen 2
+				/ConsecutiveHyphens 8
+				/Zone 36.0
+				/WordSpacing [ .8 1.0 1.33 ]
+				/LetterSpacing [ 0.0 0.0 0.0 ]
+				/GlyphSpacing [ 1.0 1.0 1.0 ]
+				/AutoLeading 1.2
+				/LeadingType 0
+				/Hanging false
+				/Burasagari false
+				/KinsokuOrder 0
+				/EveryLineComposer false
+			>>
+		>>
+		]
+		/StyleSheetSet [
+		<<
+			/Name (˛ˇNormal RGB)
+			/StyleSheetData
+			<<
+				/Font 2
+				/FontSize 12.0
+				/FauxBold false
+				/FauxItalic false
+				/AutoLeading true
+				/Leading 0.0
+				/HorizontalScale 1.0
+				/VerticalScale 1.0
+				/Tracking 0
+				/AutoKerning true
+				/Kerning 0
+				/BaselineShift 0.0
+				/FontCaps 0
+				/FontBaseline 0
+				/Underline false
+				/Strikethrough false
+				/Ligatures true
+				/DLigatures false
+				/BaselineDirection 2
+				/Tsume 0.0
+				/StyleRunAlignment 2
+				/Language 0
+				/NoBreak false
+				/FillColor
+				<<
+					/Type 1
+					/Values [ 1.0 0.0 0.0 0.0 ]
+				>>
+				/StrokeColor
+				<<
+					/Type 1
+					/Values [ 1.0 0.0 0.0 0.0 ]
+				>>
+				/FillFlag true
+				/StrokeFlag false
+				/FillFirst true
+				/YUnderline 1
+				/OutlineWidth 1.0
+				/CharacterDirection 0
+				/HindiNumbers false
+				/Kashida 1
+				/DiacriticPos 2
+			>>
+		>>
+		]
+		/FontSet [
+		<<
+			/Name (˛ˇHelveticaNeue-Light)
+			/Script 0
+			/FontType 1
+			/Synthetic 0
+		>>
+		<<
+			/Name (˛ˇAdobeInvisFont)
+			/Script 0
+			/FontType 0
+			/Synthetic 0
+		>>
+		<<
+			/Name (˛ˇMyriadPro-Regular)
+			/Script 0
+			/FontType 0
+			/Synthetic 0
+		>>
+		]
+		/SuperscriptSize .583
+		/SuperscriptPosition .333
+		/SubscriptSize .583
+		/SubscriptPosition .333
+		/SmallCapSize .7
+	>>
+>>
