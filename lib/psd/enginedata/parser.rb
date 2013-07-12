@@ -46,7 +46,7 @@ class PSD
       end
 
       def parse_tokens(text)
-        puts "PARSING: #{text}"
+        puts "PARSING: #{text.dump}"
         TOKENS.each do |type, r|
           match = r.match(text)
           if match
@@ -54,7 +54,14 @@ class PSD
           end
         end
 
-        raise TokenNotFound.new("Text = #{text.dump}, Line = #{@text.line}")
+        # This is a hack for the Japanese character rules that the format embeds
+        match = TOKENS[:string].match(text + @text.next)
+        if match
+          @text.next!
+          return string(match)
+        end
+
+        raise TokenNotFound.new("Text = #{text.dump}, Line = #{@text.line + 1}")
       end
 
       def noop(match)
