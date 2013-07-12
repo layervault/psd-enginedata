@@ -7,8 +7,8 @@ class PSD
   class EngineData
     include Parser
 
-    attr_reader :text, :result, :node
-    alias :data :result
+    attr_reader :text, :node
+    alias :result :node
 
     def self.load(file)
       self.new File.read(file)
@@ -16,11 +16,10 @@ class PSD
 
     def initialize(text)
       @text = Text.new(text)
-      @result = nil
     end
 
     def parsed?
-      !@result.nil?
+      !@node.nil?
     end
   end
 end

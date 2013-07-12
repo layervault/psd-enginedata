@@ -12,6 +12,6 @@ describe 'Parser' do
 
   it "does not error when parsing" do
     @parser.parse!
-    pp @parser.node
+    @parser.parsed?.should be_true
   end
 end

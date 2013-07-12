@@ -24,7 +24,6 @@ class PSD
 
         @property = :root
         @node = nil
-        @result = Result.new
 
         parse_document
       end
@@ -72,7 +71,7 @@ class PSD
         puts 'hash_start'
         @node_stack.push @node
         @property_stack.push @property
-        @node = {}
+        @node = Node.new
         @property = nil
       end
 
@@ -82,7 +81,7 @@ class PSD
         property = @property_stack.pop
         return if node.nil?
 
-        if node.is_a?(Hash)
+        if node.is_a?(PSD::EngineData::Node)
           node[property] = @node
         elsif node.is_a?(Array)
           node.push @node
@@ -118,7 +117,7 @@ class PSD
         node = @node_stack.pop
         property = @property_stack.pop
 
-        if node.is_a?(Hash)
+        if node.is_a?(PSD::EngineData::Node)
           node[property] = @node
         elsif node.is_a?(Array)
           node.push @node
@@ -138,7 +137,7 @@ class PSD
 
         puts "property: #{match[1]}, data: #{data}"
 
-        if @node.is_a?(Hash)
+        if @node.is_a?(PSD::EngineData::Node)
           @node[@property] = data
         elsif @node.is_a?(Array)
           @node.push data
