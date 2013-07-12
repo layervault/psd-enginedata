@@ -14,4 +14,9 @@ describe 'Parser' do
     @parser.parse!
     @parser.parsed?.should be_true
   end
+
+  it "contains the proper data" do
+    @parser.parse!
+    @parser.result.EngineDict.Editor.Text.should == "Make a change and save.\n"
+  end
 end

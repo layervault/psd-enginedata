@@ -45,7 +45,6 @@ class PSD
       end
 
       def parse_tokens(text)
-        puts "PARSING: #{text.dump}"
         TOKENS.each do |type, r|
           match = r.match(text)
           if match
@@ -64,11 +63,9 @@ class PSD
       end
 
       def noop(match)
-        puts "NOOP"
       end
 
       def hash_start(match)
-        puts 'hash_start'
         @node_stack.push @node
         @property_stack.push @property
         @node = Node.new
@@ -76,7 +73,6 @@ class PSD
       end
 
       def hash_end(match)
-        puts 'hash_end'
         node = @node_stack.pop
         property = @property_stack.pop
         return if node.nil?
@@ -92,18 +88,15 @@ class PSD
 
       def single_line_array(match)
         items = match[1].strip.split(" ")
-        puts "Single line array: #{items.inspect}"
         data = []
         items.each do |item|
           data.push parse_tokens(item)
         end
 
-        puts "Array result: #{data.inspect}"
         return data
       end
 
       def multi_line_array_start(match)
-        puts "multi_line_array_start"
 
         @node_stack.push @node
         @property_stack.push match[1]
@@ -113,7 +106,6 @@ class PSD
       end
 
       def multi_line_array_end(match)
-        puts "multi_line_array_end"
         node = @node_stack.pop
         property = @property_stack.pop
 
@@ -128,14 +120,12 @@ class PSD
 
       def property(match)
         @property = match[1]
-        puts "property = #{@property}"
       end
 
       def property_with_data(match)
         @property = match[1]
         data = parse_tokens(match[2])
 
-        puts "property: #{match[1]}, data: #{data}"
 
         if @node.is_a?(PSD::EngineData::Node)
           @node[@property] = data
@@ -145,22 +135,18 @@ class PSD
       end
 
       def string(match)
-        puts "string = #{match[1]}"
         match[1].gsub(/\r/, "\n")
       end
 
       def number(match)
-        puts "number = #{match[1]}"
         match[1].to_i
       end
 
       def number_with_decimal(match)
-        puts "number w/ decimal = #{match[1]}.#{match[2]}"
         "#{match[1]}.#{match[2]}".to_f
       end
 
       def boolean(match)
-        puts "boolean = #{match[1]}"
         match[1] == 'true' ? true : false
       end
     end
