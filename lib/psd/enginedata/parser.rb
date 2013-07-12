@@ -106,7 +106,7 @@ class PSD
 
       def string(match)
         puts "string = #{match[1]}"
-        match[1]
+        match[1].gsub(/\r/, "\n")
       end
 
       def number(match)
