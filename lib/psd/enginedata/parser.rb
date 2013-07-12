@@ -4,12 +4,13 @@ class PSD
       TOKENS = {
         hash_start: /^<<$/,
         hash_end: /^>>$/,
+        single_line_array: /^\[(.*)\]$/,
         property: /^\/(\w+)$/,
         property_with_data: /^\/(\w+) (.*)$/,
-        string:   /\(\u{2db}\u{2c7}(.*)\)$/,
-        number: /(\d+)$/,
-        number_with_decimal: /(\d+)\.(\d+)$/,
-        boolean: /(true|false)$/
+        string:   /^\(\u{2db}\u{2c7}(.*)\)$/,
+        number_with_decimal: /^(\d+)\.(\d+)$/,
+        number: /^(\d+)$/,
+        boolean: /^(true|false)$/
       }
 
       def parse!
@@ -41,10 +42,6 @@ class PSD
         end
       end
 
-      def build_result
-        @node.build
-      end
-
       def parse_tokens(text)
         puts "PARSING: #{text}"
         TOKENS.each do |type, r|
@@ -73,8 +70,20 @@ class PSD
 
         node[property] = @node
         @node = node
-        
+
         puts "Stack = #{@stack.inspect}"
+      end
+
+      def single_line_array(match)
+        items = match[1].strip.split(" ")
+        puts "Single line array: #{items.inspect}"
+        data = []
+        items.each do |item|
+          data.push parse_tokens(item)
+        end
+
+        puts "Array result: #{data.inspect}"
+        return data
       end
 
       def property(match)
@@ -88,7 +97,11 @@ class PSD
 
         puts "property: #{match[1]}, data: #{data}"
 
-        @node[property] = data
+        if @node.is_a?(Hash)
+          @node[property] = data
+        elsif @node.is_a?(Array)
+          @node.push data
+        end
       end
 
       def string(match)
@@ -102,7 +115,7 @@ class PSD
       end
 
       def number_with_decimal(match)
-        puts "number = #{match[1]}.#{match[2]}"
+        puts "number w/ decimal = #{match[1]}.#{match[2]}"
         "#{match[1]}.#{match[2]}".to_f
       end
 
