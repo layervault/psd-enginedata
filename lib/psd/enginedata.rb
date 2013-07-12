@@ -2,6 +2,8 @@ require 'hashie'
 
 dir_root = File.dirname(File.absolute_path(__FILE__))
 Dir.glob(dir_root + '/enginedata/instructions/*') { |file| require file if File.file?(file) }
+
+require dir_root + '/enginedata/document_helpers'
 Dir.glob(dir_root + '/enginedata/**/*') { |file| require file if File.file?(file) }
 
 class PSD
