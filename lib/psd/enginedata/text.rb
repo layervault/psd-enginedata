@@ -27,15 +27,6 @@ class PSD
         @text[@line + 1]
       end
 
-      def prev!
-        @line -= 1
-        current
-      end
-
-      def prev
-        @text[@line - 1]
-      end
-
       def length
         @text.length
       end

@@ -8,10 +8,10 @@ class PSD
           set_property match[1]
           data = parse_tokens match[2]
 
-          if @document.node.is_a?(PSD::EngineData::Node)
-            @document.node[@document.property] = data
-          elsif @document.node.is_a?(Array)
-            @document.node.push data
+          if node.is_a?(PSD::EngineData::Node)
+            node[property] = data
+          elsif node.is_a?(Array)
+            node.push data
           end
         end
       end
