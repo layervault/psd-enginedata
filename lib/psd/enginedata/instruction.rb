@@ -1,12 +1,19 @@
 class PSD
   class EngineData
     class Instruction
+      def self.token; end
+
       def self.match(text)
-        TOKEN.match(text)
+        token.match(text)
       end
 
-      def initialize(document)
+      def initialize(document, text)
         @document = document
+        @text = text
+      end
+
+      def match
+        self.class.match @text
       end
 
       def execute!; end

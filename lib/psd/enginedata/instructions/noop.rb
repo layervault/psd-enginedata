@@ -2,7 +2,7 @@ class PSD
   class EngineData
     class Instruction
       class Noop < Instruction
-        TOKEN = /^$/
+        def self.token; /^$/; end
       end
     end
   end

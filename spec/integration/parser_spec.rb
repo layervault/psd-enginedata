@@ -6,7 +6,7 @@ describe 'Parser' do
   end
 
   it "is ready to parse" do
-    @parser.text.length.should be > 0
+    @parser.document.should_not be_nil
     @parser.parsed?.should be_false
   end
 

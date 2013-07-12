@@ -2,12 +2,12 @@ class PSD
   class EngineData
     class Instruction
       class HashStart < Instruction
-        TOKEN = /^<<$/
+        def self.token; /^<<$/; end
 
         def execute!
-          push
+          stack_push
           reset_node
-          reset_property
+          set_property
         end
       end
     end

@@ -5,6 +5,17 @@ class PSD
       attr_accessor :property_stack, :node_stack, :property, :node
 
       INSTRUCTIONS = [
+        Instruction::HashStart,
+        Instruction::HashEnd,
+        Instruction::SingleLineArray,
+        Instruction::MultiLineArrayStart,
+        Instruction::MultiLineArrayEnd,
+        Instruction::Property,
+        Instruction::PropertyWithData,
+        Instruction::String,
+        Instruction::NumberWithDecimal,
+        Instruction::Number,
+        Instruction::Boolean,
         Instruction::Noop
       ]
 
@@ -36,24 +47,37 @@ class PSD
         @node
       end
 
-      def push
-        @node_stack.push @node
-        @property_stack.push @property
+      def stack_push(property = nil, node = nil)
+        node = @node if node.nil?
+        property = @property if property.nil?
+
+        @node_stack.push node
+        @property_stack.push property
       end
 
-      def pop
-        @node_stack.pop, @property_stack.pop
+      def stack_pop
+        return @property_stack.pop, @node_stack.pop
+      end
+
+      def set_node(node)
+        @node = node
       end
 
       def reset_node
         @node = Node.new
       end
 
-      def reset_property
-        @property = nil
+      def set_property(property = nil)
+        @property = property
       end
 
-      private
+      def update_node(property, node)
+        if node.is_a?(PSD::EngineData::Node)
+          node[property] = @node
+        elsif node.is_a?(Array)
+          node.push @node
+        end
+      end
 
       def parse_tokens(text)
         INSTRUCTIONS.each do |inst|
@@ -64,8 +88,8 @@ class PSD
         # This is a hack for the Japanese character rules that the format embeds
         match = Instruction::String.match(text + @text.next)
         if match
-          @text.next!
-          return Instruction::String.new(self, text + @text.next).execute!
+          text += @text.next!
+          return Instruction::String.new(self, text).execute!
         end
 
         raise TokenNotFound.new("Text = #{text.dump}, Line = #{@text.line + 1}")
