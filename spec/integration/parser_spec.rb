@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe 'Parser' do
   before(:each) do
-    @parser = PSD::EngineData.load('spec/files/enginedata_simple')
+    @parser = PSD::EngineData.load('spec/files/enginedata')
   end
 
   it "is ready to parse" do

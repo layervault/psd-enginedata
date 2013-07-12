@@ -5,12 +5,15 @@ class PSD
         hash_start: /^<<$/,
         hash_end: /^>>$/,
         single_line_array: /^\[(.*)\]$/,
+        multi_line_array_start: /^\/(\w+) \[$/,
+        multi_line_array_end: /^\]$/,
         property: /^\/(\w+)$/,
         property_with_data: /^\/(\w+) (.*)$/,
         string:   /^\(\u{2db}\u{2c7}(.*)\)$/,
-        number_with_decimal: /^(\d+)\.(\d+)$/,
+        number_with_decimal: /^(\d*)\.(\d+)$/,
         number: /^(\d+)$/,
-        boolean: /^(true|false)$/
+        boolean: /^(true|false)$/,
+        noop: /^$/
       }
 
       def parse!
@@ -51,7 +54,11 @@ class PSD
           end
         end
 
-        raise TokenNotFound.new("Text = #{text}")
+        raise TokenNotFound.new("Text = #{text.dump}, Line = #{@text.line}")
+      end
+
+      def noop(match)
+        puts "NOOP"
       end
 
       def hash_start(match)
@@ -59,7 +66,7 @@ class PSD
         @node_stack.push @node
         @property_stack.push @property
         @node = {}
-        puts "Stack = #{@stack.inspect}"
+        @property = nil
       end
 
       def hash_end(match)
@@ -68,10 +75,13 @@ class PSD
         property = @property_stack.pop
         return if node.nil?
 
-        node[property] = @node
-        @node = node
+        if node.is_a?(Hash)
+          node[property] = @node
+        elsif node.is_a?(Array)
+          node.push @node
+        end
 
-        puts "Stack = #{@stack.inspect}"
+        @node = node
       end
 
       def single_line_array(match)
@@ -86,19 +96,43 @@ class PSD
         return data
       end
 
+      def multi_line_array_start(match)
+        puts "multi_line_array_start"
+
+        @node_stack.push @node
+        @property_stack.push match[1]
+
+        @node = []
+        @property = nil
+      end
+
+      def multi_line_array_end(match)
+        puts "multi_line_array_end"
+        node = @node_stack.pop
+        property = @property_stack.pop
+
+        if node.is_a?(Hash)
+          node[property] = @node
+        elsif node.is_a?(Array)
+          node.push @node
+        end
+
+        @node = node
+      end
+
       def property(match)
         @property = match[1]
         puts "property = #{@property}"
       end
 
       def property_with_data(match)
-        property = match[1]
+        @property = match[1]
         data = parse_tokens(match[2])
 
         puts "property: #{match[1]}, data: #{data}"
 
         if @node.is_a?(Hash)
-          @node[property] = data
+          @node[@property] = data
         elsif @node.is_a?(Array)
           @node.push data
         end

@@ -5,7 +5,7 @@ class PSD
       attr_accessor :line
 
       def initialize(text)
-        @text = text.strip.split("\n")
+        @text = text.split("\n")
         @line = 0
       end
 
