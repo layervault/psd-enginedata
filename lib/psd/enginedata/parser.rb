@@ -135,7 +135,7 @@ class PSD
       end
 
       def string(match)
-        match[1].gsub(/\r/, "\n")
+        match[1].gsub(/\r/, "\n").strip
       end
 
       def number(match)

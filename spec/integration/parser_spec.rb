@@ -17,7 +17,7 @@ describe 'Parser' do
 
   it "contains the proper data" do
     @parser.parse!
-    @parser.result.EngineDict.Editor.Text.should == "Make a change and save.\n"
+    @parser.result.EngineDict.Editor.Text.should == "Make a change and save."
     @parser.result.ResourceDict.FontSet.first.Name.should == "HelveticaNeue-Light"
   end
 end
