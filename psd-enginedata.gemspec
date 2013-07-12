@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = Dir.glob("spec/**/*")
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'hashie'
+  spec.add_dependency 'hashie', '~> 2.0'
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
