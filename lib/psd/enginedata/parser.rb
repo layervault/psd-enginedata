@@ -30,10 +30,6 @@ class PSD
 
       private
 
-      def at_root?
-        @stack.size == 0
-      end
-
       def parse_document
         while true
           line = @text.current

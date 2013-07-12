@@ -7,19 +7,20 @@ class PSD
   class EngineData
     include Parser
 
-    attr_reader :text, :node
-    alias :result :node
+    attr_reader :document
 
     def self.load(file)
       self.new File.read(file)
     end
 
     def initialize(text)
-      @text = Text.new(text)
+      @document = Document.new(text)
     end
 
-    def parsed?
-      !@node.nil?
+    [:parse!, :parsed?, :result].each do |m|
+      define_method m do
+        @document.send(m)
+      end
     end
   end
 end
