@@ -97,7 +97,7 @@ Basically, numbers can be expressed with or without a decimal point. Floats are 
 
 ### Strings
 
-Strings are delimited by parentheses with a cedilla-breve (thanks [Rob](http://github.com/robgrant)) for the terminology) at the start of the string. Since operations are UNIX newline (\n) delimited within the document, new lines in strings are denoted by carriage returns (\r).
+Strings are delimited by parentheses with a cedilla-breve (thanks [Rob](http://github.com/robgrant) for the terminology) at the start of the string. Since operations are UNIX newline (\n) delimited within the document, new lines in strings are denoted by carriage returns (\r).
 
 ### Booleans
 
