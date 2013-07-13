@@ -2,7 +2,7 @@ class PSD
   class EngineData
     class Instruction
       class PropertyWithData < Instruction
-        def self.token; /^\/(\w+) (.*)$/; end
+        def self.token; /^\/([A-Z0-9]+) (.*)$/i; end
 
         def execute!
           set_property match[1]
