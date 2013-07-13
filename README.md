@@ -101,7 +101,7 @@ Strings are delimited by parentheses with a cedilla-breve (thanks [Rob](http://g
 
 ### Booleans
 
-Booleans are simply denoted by `true` or `false`. Pretty simple.
+Booleans are simply denoted by `true` or `false`. Cool.
 
 ## Contributing
 
