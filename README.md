@@ -34,7 +34,7 @@ puts parser.result.Editor.Text
 
 ## File Spec
 
-The EngineData format uses certain characters to denote various data types. All newlines are denoted with a UNIX newline (\n) and it is not indentation-aware.
+The EngineData format uses certain characters to denote various data types. All newlines are denoted with a UNIX newline (\n) and it is not indentation-aware (although it seems to be stored with pretty indentation in the PSD file).
 
 ```
 <<
