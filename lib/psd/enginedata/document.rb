@@ -3,8 +3,10 @@ class PSD
     class Document
       attr_reader   :text
       attr_accessor :property_stack, :node_stack, :property, :node
+      alias :result :node
 
       include DocumentHelpers
+      include Export
 
       INSTRUCTIONS = [
         Instruction::HashStart,
@@ -43,10 +45,6 @@ class PSD
 
       def parsed?
         !@node.nil?
-      end
-
-      def result
-        @node
       end
 
       def parse_tokens(text)
