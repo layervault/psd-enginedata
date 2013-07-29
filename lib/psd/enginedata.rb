@@ -10,6 +10,7 @@ dir_root = File.dirname(File.absolute_path(__FILE__)) + '/enginedata'
 end
 
 class PSD
+  # General purpose parser for the text data markup present within PSD documents.
   class EngineData
     attr_reader   :text
     attr_accessor :property_stack, :node_stack, :property, :node
@@ -18,6 +19,7 @@ class PSD
     include DocumentHelpers
     include Export
 
+    # All of the instructions as defined by the EngineData spec.
     INSTRUCTIONS = [
       Instruction::HashStart,
       Instruction::HashEnd,
@@ -33,10 +35,12 @@ class PSD
       Instruction::Noop
     ]
 
+    # Read a file containing EngineData markup and initialize a new instance.
     def self.load(file)
       self.new File.read(file)
     end
 
+    # Create a new Text instance and initialize our parsing stacks.
     def initialize(text)
       @text = Text.new(text)
 
@@ -45,9 +49,14 @@ class PSD
 
       @property = :root
       @node = nil
+
+      @parsed = false
     end
 
+    # Parses the full document.
     def parse!
+      return if parsed?
+
       while true
         line = @text.current
         return if line.nil?
@@ -55,12 +64,17 @@ class PSD
         parse_tokens(line)
         @text.next!
       end
+
+      @parsed = true
     end
 
+    # Has the document been parsed yet?
     def parsed?
-      !@node.nil?
+      @parsed
     end
 
+    # Go through each instruction until a token match is found, then parse the
+    # matches.
     def parse_tokens(text)
       INSTRUCTIONS.each do |inst|
         match = inst.match(text)

@@ -1,6 +1,6 @@
 class PSD
   class EngineData
-    module Export
+    module Export #:nodoc:
       include CSS
     end
   end

@@ -1,7 +1,13 @@
 class PSD
   class EngineData
     module Export
+      # Exports the document to a CSS string.
       module CSS
+        # Creates the CSS string and returns it. Each property is newline separated
+        # and not all properties may be present depending on the document.
+        #
+        # Colors are returned in rgba() format and fonts may include some internal
+        # Photoshop fonts.
         def to_css
           parse! unless parsed?
           
