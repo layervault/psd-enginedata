@@ -59,13 +59,11 @@ class PSD
 
       while true
         line = @text.current
-        return if line.nil?
+        @parsed = true and return if line.nil?
 
         parse_tokens(line)
         @text.next!
       end
-
-      @parsed = true
     end
 
     # Has the document been parsed yet?
