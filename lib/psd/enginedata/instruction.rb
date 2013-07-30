@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class PSD
   class EngineData
     # A single instruction as defined by the EngineData spec.

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class PSD
   class EngineData
     # A collection of helper methods that are used to manipulate the internal

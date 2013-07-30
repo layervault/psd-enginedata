@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class PSD
   class EngineData
     # Sanitizes and helps with access to the document text.

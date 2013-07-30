@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'hashie'
 
 dir_root = File.dirname(File.absolute_path(__FILE__)) + '/enginedata'

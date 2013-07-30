@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require './lib/psd/enginedata'
 
 RSpec.configure do |config|

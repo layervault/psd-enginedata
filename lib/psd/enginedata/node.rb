@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class PSD
   class EngineData
     # Represents a single node in the parsing tree. Extended with Hashie methods
