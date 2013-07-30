@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["meltingice8917@gmail.com"]
   spec.description   = %q{Parser for the markup format used in the PSD file format}
   spec.summary       = %q{Parser for the markup format used in the PSD file format}
-  spec.homepage      = ""
+  spec.homepage      = "http://cosmos.layervault.com/psdrb.html"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
