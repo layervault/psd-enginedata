@@ -7,18 +7,19 @@ describe 'Parser' do
   end
 
   it "is ready to parse" do
-    @parser.text.should_not be_nil
-    @parser.parsed?.should be_false
+    expect(@parser.text).to_not be_nil
+    expect(@parser).to_not be_parsed
   end
 
   it "does not error when parsing" do
     @parser.parse!
-    @parser.parsed?.should be_true
+    expect(@parser).to be_parsed
   end
 
   it "contains the proper data" do
     @parser.parse!
-    @parser.result.EngineDict.Editor.Text.should == "Make a change and save."
-    @parser.result.ResourceDict.FontSet.first.Name.should == "HelveticaNeue-Light"
+
+    expect(@parser.result.EngineDict.Editor.Text).to eq("Make a change and save.")
+    expect(@parser.result.ResourceDict.FontSet.first.Name).to eq("HelveticaNeue-Light")
   end
 end

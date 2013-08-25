@@ -18,7 +18,6 @@ class PSD
     alias :result :node
 
     include DocumentHelpers
-    include Export
 
     # All of the instructions as defined by the EngineData spec.
     INSTRUCTIONS = [
