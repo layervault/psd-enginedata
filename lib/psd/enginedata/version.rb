@@ -1,6 +1,6 @@
 # -*- encoding : utf-8 -*-
 class PSD
   class EngineData
-    VERSION = "0.2.3"
+    VERSION = "1.0.0"
   end
 end
