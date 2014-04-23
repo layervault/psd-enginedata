@@ -37,7 +37,7 @@ class PSD
 
     # Read a file containing EngineData markup and initialize a new instance.
     def self.load(file)
-      self.new File.read(file)
+      self.new File.new(file, 'rb').read
     end
 
     # Create a new Text instance and initialize our parsing stacks.

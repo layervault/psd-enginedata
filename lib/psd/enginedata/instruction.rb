@@ -8,7 +8,11 @@ class PSD
 
       # Checks to see if the given text is a match for this token.
       def self.match(text)
-        token.match(text)
+        begin
+          token.match(text)
+        rescue Encoding::CompatibilityError
+          nil
+        end
       end
 
       # Stores a reference to the EngineData document and the current
