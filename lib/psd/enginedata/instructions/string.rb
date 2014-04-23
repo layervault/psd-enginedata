@@ -14,7 +14,6 @@ class PSD
             data
               .force_encoding('UTF-16BE')
               .encode('UTF-8', 'UTF-16BE', universal_newline: true)
-              .gsub(/\r/, "\n")
               .strip
           rescue
             data
