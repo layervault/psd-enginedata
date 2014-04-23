@@ -13,7 +13,7 @@ class PSD
           begin
             data
               .force_encoding('UTF-16BE')
-              .encode('UTF-8', 'UTF-16BE')
+              .encode('UTF-8', 'UTF-16BE', universal_newline: true)
               .strip
           rescue
             data
