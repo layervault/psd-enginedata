@@ -29,7 +29,7 @@ parser = PSD::EngineData.new(text)
 parser.parse!
 
 # Use it
-puts parser.result.Editor.Text
+puts parser.result.EngineDict.Editor.Text
 ```
 
 ## File Spec
